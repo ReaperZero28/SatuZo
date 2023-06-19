@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="headerlogo" src="header-logo.png" alt="">
+            <div class="home"><a href="Home.html">Home</a></div>
+            <div class="register"><a href="form.html">Register</a></div>
+        </nav>
+    </header>
+    <div class="back">
+        <h1 class="headtitle">Available Tea<br></h1>
+        <table class="ava" border="2" width="50%">
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Tea</th>
+                <th colspan="2">Availability</th>
+            </tr>
+            <tr>
+                <th>Stok</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td class="Stat1">1</td>
+                <td class="Stat1">Tea 1</td>
+                <td class="Stat1">5</td>
+                <td class="Stat1">Available</td>
+            </tr>
+            <tr>
+                <td class="Stat2">2</td>
+                <td class="Stat2">Tea 2</td>
+                <td class="Stat2">0</td>
+                <td class="Stat2">Sold Out</td>
+            </tr>
+            <tr>
+                <td class="Stat3">3</td>
+                <td class="Stat3">Tea 3</td>
+                <td class="Stat3">2</td>
+                <td class="Stat3">Available</td>
+            </tr>
+            </table>
+    <div class="formulir">
+        <br><br><br><h1 id="title">Formulir Booking <br><br></h1>
+        <table class="tab" width="50%">
+            <tr>
+                <td><label for="name">Nama</label></td>
+                <td>:</td>
+                <td><input type="text" id="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Alamat</label></td>
+                <td>:</td>
+                <td><input type="text" id="address" placeholder="Enter your address"></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">Nomor Telepon</label></td>
+                <td>:</td>
+                <td><input type="text" id="telephone" placeholder="Enter your phone number"></td>
+            </tr>
+            <tr>
+                <td>Pesanan</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="order" id="teh1"><label for="teh1">Tea 1</label>
+                    <input type="radio" name="order" id="teh2"><label for="teh2">Tea 2</label>
+                    <input type="radio" name="order" id="teh3"><label for="teh3">Tea 3</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Sum">Jumlah</label></td>
+                <td>:</td>
+                <td><input type="text" id="Sum" placeholder="0"></td>
+            </tr>
+             <tr>
+                <td class="snr"><input type="submit" value="Send">
+                    <input type="reset" value="Refresh">
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <footer>
+        <a href="https://www.instagram.com/"><img class="social" src="instagram.webp" alt=""></a>
+        <a href="https://www.facebook.com/"><img class="social" src="facebook.webp" alt=""></a>
+        <br>
+        <p>Copyright by Bluejack 2020</p>
+    </footer>
+</body>
+</html>

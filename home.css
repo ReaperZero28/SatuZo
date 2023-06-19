@@ -1,0 +1,109 @@
+*{
+    margin: 0;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: grey;
+    height: 70px;
+}
+
+header a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.headerlogo{
+    width: 53px;
+    height: 53px;
+    padding-left: 20px;
+}
+
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    position: absolute;
+}
+
+.home{
+    padding-left: 30px;
+}
+
+.home:hover{
+    filter: contrast(20%);
+}
+
+.register{
+    padding-left: 1050px;
+}
+
+.register:hover{
+    filter: contrast(20%);
+}
+
+.mid{
+    background-image: url("banner.webp");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.midlogo{
+    padding-top: 70px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.col{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 20px;
+    vertical-align: text-top;
+}
+
+.white{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Teas{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.tea{
+    margin-left: -7px;
+}
+
+.tea:hover{
+    filter: contrast(20%);
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    min-height: 100px;
+}
+
+.social{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.social:hover{
+    filter: contrast(20%);
+}

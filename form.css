@@ -1,0 +1,108 @@
+*{
+    margin: 0;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: grey;
+    height: 70px;
+}
+
+header a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.headerlogo{
+    width: 53px;
+    height: 53px;
+    padding-left: 20px;
+}
+
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    position: absolute;
+}
+
+.back{
+    background-image: url("banner.webp");
+    min-height: 750px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headtitle{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ava{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Stat1{
+    text-align: center;
+}
+
+.Stat2{
+    text-align: center;
+}
+
+.Stat3{
+    text-align: center;
+}
+
+.formulir{
+    text-align: center;
+}
+
+.tab{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.snr{
+    padding-top: 60px;
+}
+
+.home{
+    padding-left: 30px;
+}
+
+.home:hover{
+    filter: contrast(20%);
+}
+
+.register{
+    padding-left: 1050px;
+}
+
+.register:hover{
+    filter: contrast(20%);
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    min-height: 100px;
+}
+
+.social{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.social:hover{
+    filter: contrast(20%);
+}
